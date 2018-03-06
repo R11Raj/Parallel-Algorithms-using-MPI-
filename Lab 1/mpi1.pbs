@@ -1,0 +1,8 @@
+#PBS -l nodes=2
+
+#PBS -N cnt
+
+#PBS -j oe
+
+
+mpiexec ~/mpi1

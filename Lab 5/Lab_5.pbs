@@ -1,0 +1,7 @@
+#PBS -l nodes=3
+
+#PBS -N cnt
+
+#PBS -j oe
+
+mpiexec ~/mp9
